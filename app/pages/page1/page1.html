@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Page Uno</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="page1">
+
+  <h3>Ionic Menu Starter</h3>
+
+  <input type="text" mask name="cpf" [(ngModel)]="user.cpf" #cpf>
+
+  <ion-item-divider></ion-item-divider>
+
+  {{user | json}}
+
+  <ion-item-divider></ion-item-divider>
+  <button (click)="click()">Test</button>
+</ion-content>
