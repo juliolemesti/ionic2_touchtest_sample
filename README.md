@@ -55,4 +55,5 @@ dependencies {
 
 Then, on the Android Project Folder (platforms/android) execute the command  
 ```gradle clean assembleDebug```  
-Which will create the android-debug.apk in the build/output/apk folder
+Which will create the android-debug.apk in the build/outputs/apk folder, then install de apk on the device using:  
+```adb install build/outputs/apk/android-debug.apk```
