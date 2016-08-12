@@ -52,3 +52,7 @@ dependencies {
     soasta 'com.soasta.touchtest:touchtestdriver:1.4.11'
 }
 ```
+
+Then, on the Android Project Folder (platforms/android) execute the command  
+```gradle clean assembleDebug```  
+Which will create the android-debug.apk in the build/output/apk folder
